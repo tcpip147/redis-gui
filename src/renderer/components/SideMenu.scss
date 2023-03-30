@@ -1,0 +1,14 @@
+.side-menu {
+    $padding: 5px;
+    height: calc(100% - $padding * 2);
+    float: left;
+    user-select: none;
+    padding-left: $padding;
+    padding-top: $padding;
+
+    .databases {
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+        border: 1px solid #aaa;
+    }
+}
