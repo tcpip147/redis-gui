@@ -1,6 +1,6 @@
 $titlebar-baseSize: 16px;
 $titlebar-height: 28px;
-$titlebar-bg: #17211d;
+$titlebar-bg: #2f89dd;
 $titlebar-iconSize: 16px;
 $em: $titlebar-baseSize*1em;
 
@@ -35,8 +35,7 @@ body {
             display: flex;
             padding: 4px 0px;
             font-size: 0.8125rem;
-            text-shadow: 0px 1px 1px black;
-            color: #97a0b1;
+            color: #ddd;
         }
 
         .controls {
@@ -47,7 +46,7 @@ body {
             right: 0;
             top: 0;
             bottom: 0;
-            color: #969799;
+            color: #ddd;
 
             .control {
                 padding: 0 1.15em;
@@ -62,8 +61,8 @@ body {
                 }
 
                 &:hover {
-                    background: #242d38;
-                    color: #d8d9db;
+                    background: #4e9be2;
+                    color: #fff;
                 }
             }
         }

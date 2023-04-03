@@ -5,6 +5,7 @@ import settings from '/package.json';
 import logo from '@assets/images/logo.png';
 import { maximizePath, minimizePath, closePath } from '@common/globalVariables';
 import Application from './components/Application';
+import { configureStore } from '@reduxjs/toolkit';
 
 const app = (
   <div className='app' style={settings.customTitleBar ? null : { display: 'none' }}>
